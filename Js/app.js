@@ -79,11 +79,15 @@
 // for (let i = 1; i <= 5; i++) {
 //     console.log(i);
 // }
+// 1000 Salom Sardor 
 
-for (let i = 1; i <= 10; i += 1 ) {
-  console.log("Bachekor nigo kuneton")
+// console.log("Salom Sardor!")
+// for (let i = 1; i <= 10; i += 1 ) {
+//   console.log("Bachekor nigo kuneton")
+// }
+for (let a = 1; a <= 100; a++){
+  console.log("Salom Sardor " + a )
 }
-for (let i = 1; i <= 10; i++) {
-  console.log(i)
-}
+
+arr = [1,2,3,4,5,6,7,8,9,10]
 
