@@ -1,0 +1,43 @@
+for (boshlangich; shart; qadam) {
+    // bajariladigan kod
+}
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+
+let mevalar = ["Banan", "Olma", "Anor"];
+
+mevalar.sort();
+
+console.log(mevalar);
+
+let sonlar = [5, 100, 25, 1];
+
+sonlar.sort();
+
+console.log(sonlar);
+
+
+let sonlar = [5, 100, 25, 1];
+
+sonlar.sort((a, b) => a - b);
+
+console.log(sonlar);
+
+let sonlar = [5, 100, 25, 1];
+
+sonlar.sort((a, b) => b - a);
+
+console.log(sonlar);
+
+let sonlar = [1, 2, 3, 4, 5];
+
+sonlar.reverse();
+
+console.log(sonlar);
