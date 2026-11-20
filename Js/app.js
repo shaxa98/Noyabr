@@ -91,6 +91,25 @@
 
 // arr = [1,2,3,4,5,6,7,8,9,10]
 
-let yulduz = ""
-for(let i = 1; i <= 100; i++) {yulduz += "*"; console.log(yulduz);}
+// let yulduz = ""
+// for(let i = 1; i <= 100; i++) {yulduz += "*"; console.log(yulduz);}
 
+// let son = 2
+// for(let i = 1; i <= 10; i++){
+//     console.log(son + " X " + i + " = " + (son * i))
+// }
+
+// for(let i = 1; i <= 11; i++){
+//     console.log(son ** i)
+// }
+
+// for(let i = 100; i >=1; i -= 1){
+//     console.log ( i )
+// };
+
+for (let i = 2; i <= 10; i += 2) {
+  console.log( i + " Juft son!")
+}
+for (let i = 1; i <= 10; i += 2) {
+  console.log(i + " Toq son!")
+}  console.log(i)
