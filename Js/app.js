@@ -95,7 +95,5 @@ let yulduz = ""
 for(let i = 1; i <= 10; i++) {
   yulduz += "*"
   console.log(yulduz);
-  
-  
 }
 
