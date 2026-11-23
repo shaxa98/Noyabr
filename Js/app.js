@@ -112,4 +112,20 @@ for (let i = 2; i <= 10; i += 2) {
 }
 for (let i = 1; i <= 10; i += 2) {
   console.log(i + " Toq son!")
-}  console.log(i)
+}  
+
+let Bola = ["Shaxruz", "Manucher", "Shaxzod", "Anis", "Samir", 
+  "Davlat", "Sherzod", "Karimbek","Donyor", "Tursunxon","Bo'riboy"];
+  
+  console.log(Bola.length)
+
+
+  let count = 1
+  while (count <= 10) {
+   console.log("Sardor " + count);
+  count++;
+ }
+
+  let Login = prompt("Loginni kiriting: ");
+  console.log(Login)
+alert("Ekranba muburorad")
