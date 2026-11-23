@@ -119,10 +119,27 @@
 //   console.log(Bola.length)
 
 
-//   let count = 1
-//   while (count <= 10) {
-//    console.log("Sardor " + count);
-//   count++;
+  
+// let count = 3
+// while (count >= 1) {
+//     let l = prompt ("logini Kirit")
+//    if ( l === "Samir")
+//    {
+//      let p = prompt ("Parolni Kirit")
+//     if (p === "1234") 
+//     { alert("tabriklayman")
+//        break
+//     }
+//     else {
+//     alert("Parol xato")
+//        }
+//     }
+//    else {
+//     count -= 1 ;
+//     alert("login xato")
+       
+//    }
+  
 //  }
 
 //   let Login = prompt("Loginni kiriting: ");
@@ -130,17 +147,31 @@
 // alert("Ekranba muburorad")
 
 
-let Bola = ["Shaxruz", "Manucher", "Shaxzod", "Anis", "Samir", 
-  "Davlat", "Sherzod", "Karimbek","Donyor", "Tursunxon","Bo'riboy", "Firdavs"];
-   for (let i = 0; i < Bola.length; i++ ) {
-    console.log(Bola[i] + " Bugun darsga keldi");
+// let Bola = ["Shaxruz", "Manucher", "Shaxzod", "Anis", "Samir", 
+//   "Davlat", "Sherzod", "Karimbek","Donyor", "Tursunxon","Bo'riboy", "Firdavs"];
+//    for (let i = 0; i < Bola.length; i++ ) {
+//     console.log(Bola[i] + " Bugun darsga keldi");
     
-}
+// }
 
-let bola = []
+// let bola = []
 
-for(let i = 0; i < 10; i++){
-  let ism = prompt( " ism kiritingb ");
-  bola.push(ism);
+// for(let i = 0; i < 10; i++){
+//   let ism = prompt( " ism kiritingb ");
+//   bola.push(ism);
+// }
+// console.log(bola)
+
+
+
+let count = 3;
+while (count > 0) { let login = prompt("Loginni kiriting");
+if (login === "Samir") {
+    let parol;
+    while (count > 0) {
+        parol = prompt("Parolni kiriting");
+        if (parol === "1234") {alert("Tabriklayman!");break;}count--;
+        alert("Parol xato! Qoldi: " + count);} if (parol === "1234") {
+        break;}
+} else {count--; alert("Login xato!");}
 }
-console.log(bola)
