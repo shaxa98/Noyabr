@@ -131,10 +131,16 @@
 
 
 let Bola = ["Shaxruz", "Manucher", "Shaxzod", "Anis", "Samir", 
-  "Davlat", "Sherzod", "Karimbek","Donyor", "Tursunxon","Bo'riboy"];
-
-
-  for (let i = 0; i < Bola.length; i++ ) {
-    console.log(Bola[i] + "Bugun darsga keldi");
+  "Davlat", "Sherzod", "Karimbek","Donyor", "Tursunxon","Bo'riboy", "Firdavs"];
+   for (let i = 0; i < Bola.length; i++ ) {
+    console.log(Bola[i] + " Bugun darsga keldi");
     
-  }
+}
+
+let bola = []
+
+for(let i = 0; i < 10; i++){
+  let ism = prompt( " ism kiritingb ");
+  bola.push(ism);
+}
+console.log(bola)
