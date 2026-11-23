@@ -107,25 +107,34 @@
 //     console.log ( i )
 // };
 
-for (let i = 2; i <= 10; i += 2) {
-  console.log( i + " Juft son!")
-}
-for (let i = 1; i <= 10; i += 2) {
-  console.log(i + " Toq son!")
-}  
+// for (let i = 2; i <= 10; i += 2) {
+//   console.log( i + " Juft son!")
+// }
+// for (let i = 1; i <= 10; i += 2) {
+//   console.log(i + " Toq son!")
+// }  
+
+
+  
+//   console.log(Bola.length)
+
+
+//   let count = 1
+//   while (count <= 10) {
+//    console.log("Sardor " + count);
+//   count++;
+//  }
+
+//   let Login = prompt("Loginni kiriting: ");
+//   console.log(Login)
+// alert("Ekranba muburorad")
+
 
 let Bola = ["Shaxruz", "Manucher", "Shaxzod", "Anis", "Samir", 
   "Davlat", "Sherzod", "Karimbek","Donyor", "Tursunxon","Bo'riboy"];
-  
-  console.log(Bola.length)
 
 
-  let count = 1
-  while (count <= 10) {
-   console.log("Sardor " + count);
-  count++;
- }
-
-  let Login = prompt("Loginni kiriting: ");
-  console.log(Login)
-alert("Ekranba muburorad")
+  for (let i = 0; i < Bola.length; i++ ) {
+    console.log(Bola[i] + "Bugun darsga keldi");
+    
+  }
