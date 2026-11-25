@@ -164,14 +164,33 @@
 
 
 
-let count = 3;
-while (count > 0) { let login = prompt("Loginni kiriting");
-if (login === "Samir") {
-    let parol;
-    while (count > 0) {
-        parol = prompt("Parolni kiriting");
-        if (parol === "1234") {alert("Tabriklayman!");break;}count--;
-        alert("Parol xato! Qoldi: " + count);} if (parol === "1234") {
-        break;}
-} else {count--; alert("Login xato!");}
+// let count = 3;
+// while (count > 0) { let login = prompt("Loginni kiriting");
+// if (login === "Samir") {
+//     let parol;
+//     while (count > 0) {
+//         parol = prompt("Parolni kiriting");
+//         if (parol === "1234") {alert("Tabriklayman!");break;}count--;
+//         alert("Parol xato! Qoldi: " + count);} if (parol === "1234") {
+//         break;}
+// } else {count--; alert("Login xato!");}
+// }
+
+
+let buyurtma = Number(prompt(" 1 dan 4 gacha son kirgizing! "))
+
+switch (buyurtma) {
+    case 1:
+    case 2:
+    case 3:
+        console.log(" Salom Abdulboqi")
+        break
+    case 4:
+        console.log(" Salom So'robjon")
+        break
+    case 5:
+        console.log(" Salom Sardor")
+         break
+    default: 
+    console.log( "bunday taom yo'q")     
 }
