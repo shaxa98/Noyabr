@@ -194,3 +194,8 @@ switch (buyurtma) {
     default: 
     console.log( "bunday taom yo'q")     
 }
+
+let yosh = Number(prompt(" Yoshing nechida?  "))
+switch (yosh) {
+    
+}
