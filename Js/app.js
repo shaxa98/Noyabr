@@ -177,25 +177,77 @@
 // }
 
 
-let buyurtma = Number(prompt(" 1 dan 4 gacha son kirgizing! "))
+// let buyurtma = Number(prompt(" 1 dan 4 gacha son kirgizing! "))
 
-switch (buyurtma) {
-    case 1:
-    case 2:
-    case 3:
-        console.log(" Salom Abdulboqi")
-        break
-    case 4:
-        console.log(" Salom So'robjon")
-        break
-    case 5:
-        console.log(" Salom Sardor")
-         break
-    default: 
-    console.log( "bunday taom yo'q")     
-}
+// switch (buyurtma) {
+//     case 1:
+//     case 2:
+//     case 3:
+//         console.log(" Salom Abdulboqi")
+//         break
+//     case 4:
+//         console.log(" Salom So'robjon")
+//         break
+//     case 5:
+//         console.log(" Salom Sardor")
+//          break
+//     default: 
+//     console.log( "bunday taom yo'q")     
+// }
 
-let yosh = Number(prompt(" Yoshing nechida?  "))
-switch (yosh) {
+// let yosh = Number(prompt(" Yoshing nechida?  "))
+// switch (yosh) {
     
+// }
+
+// son = Number(prompt("nechini o'ylayabsan ")) 
+// switch (son) {
+//     case 1:
+//         console.log("bir")
+//         break
+//         case 2:
+//         console.log("ikki")
+//         break
+//         case 3:
+//         console.log("uch")
+//         break
+//         case 4:
+//         console.log("to'rt")
+//         break
+//         case 5:
+//         console.log("besh")
+//         break
+//         default: 
+//         console.log( "Bunaqa sonni bilmayman")
+// }
+
+
+// let son2 = 6;
+// switch (son2) {
+//     case 1:
+//     case 3:
+//     case 5: 
+//     case 7: 
+//     case 9:  
+//     console.log(son2 + " toq son ") 
+//     break
+//      case 2:
+//     case 4:
+//     case 6: 
+//     case 8: 
+//     case 10:  
+//     console.log(son2 + " Juft son ") 
+//     break    
+// }
+
+function Sardorjon  (Son1, son2) {
+    console.log(Son1*son2)
 }
+
+Sardorjon(50, 80)
+Sardorjon(55, 15)
+Sardorjon(45, 45)
+Sardorjon(56, 87)
+Sardorjon(99, 78)
+Sardorjon(77, 55)
+Sardorjon(66, 44)

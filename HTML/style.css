@@ -1,15 +1,17 @@
-body{background-color: aqua;}
-.dadesh {
-    width: 1000px;
-    height: 600px;
-    border: solid black;
-    background-color: brown;
-    display: flex;
-    justify-content: space-evenly
-}
-.bachesh {
-    width: 100px;
-    height: 100px;
-    border: solid black;
-    background-color: bisque;
-}
+ body{
+        width: 700px;
+        height: 700px;
+        background-color: rgba(255, 0, 0, 0.748);
+        margin: 10px;
+       } 
+       #Xushnur {
+        width: 750px;
+        height: 850px;
+        background-color: blanchedalmond;
+       }
+       .Temur {
+         width: 750px;
+        height: 850px;
+        background-color: green;
+        margin: 50px
+       }

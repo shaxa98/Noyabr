@@ -1,0 +1,21 @@
+body {
+        background-color: rgb(0, 255, 119);
+      }
+      /* div{ 
+        width: 200px; height: 200px; background-color: black;
+      } */
+       #Xushnur {
+        width: 500px;
+        height: 500px;
+        background-color: azure;
+       }
+       .Temur {
+         width: 500px;
+        height: 500px;
+        background-color: green;
+       }
+       .Temur1 {
+         width: 500px;
+        height: 500px;
+        background-color: rgb(0, 32, 128);
+       }
